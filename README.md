@@ -30,7 +30,7 @@
 |服务端|NestJS、Express、TypeORM、MySQL 驱动|
 |接口契约|共享 TypeScript 类型包 `@lemiao/contracts`|
 
-当前交付：三端运行和构建配置、课程列表和详情、后台状态页、错误与重试、MySQL 连接准备。没有 AI、登录、预约、支付、退款、提现或管理写操作，也没有发布上线。
+当前交付：三端运行和构建配置、课程列表和详情、后台状态页、错误与重试、MySQL 连接准备。没有 AI、登录、预约、支付、退款、提现或管理写操作，尚未部署公开演示网站。
 
 小程序已完成“专业运动训练品牌”视觉改版，包含首页、课程详情、活动、个人中心及反馈状态。素材清单、原图与提示词见 [品牌素材说明](assets/brand/README.md)，界面规范见 [DESIGN.md](DESIGN.md)。课程人物为生成的情境配图，服务端演示数据及业务边界保持不变。
 
@@ -41,8 +41,8 @@
 克隆仓库后，在项目根目录运行：
 
 ```powershell
-git clone https://github.com/xiaoyu3432-png/lemiao.git
-cd lemiao
+git clone https://github.com/lun79345-dotcom/youth-sports-platform.git
+cd youth-sports-platform
 pnpm install --frozen-lockfile
 pnpm dev
 ```
